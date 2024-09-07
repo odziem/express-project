@@ -27,6 +27,7 @@ app.get('/', (req, res) => {
     caption: 'Let\'s go skiing!',
   });
 });
+
 app.use('/friends', friendsRouter);
 app.use('/messages', messagesRouter);
 
